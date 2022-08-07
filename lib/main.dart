@@ -1,5 +1,4 @@
-import 'package:flutter/material.dart';
-//import 'camera_ex.dart';
+import "package:flutter/material.dart";
 import 'qrscan_ex.dart';
 
 void main() {
@@ -18,7 +17,7 @@ class MyApp extends StatelessWidget {
 
         primarySwatch: Colors.green,
       ),
-      home: QrView(),
+      home: const QrView(),
     );
   }
 }
